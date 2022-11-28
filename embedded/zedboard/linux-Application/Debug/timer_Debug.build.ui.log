@@ -1,0 +1,191 @@
+2022-11-17T14:13:37.97871600255-14:13:37 **** Incremental Build of configuration Debug for project timer ****
+000-make all 
+000-Building file: ../src/default_Config_Menu.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/default_Config_Menu.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/default_Config_Menu.d" -MT"src/default_Config_Menu.o" -o "src/default_Config_Menu.o" "../src/default_Config_Menu.c"
+000-Finished building: ../src/default_Config_Menu.c
+000- 
+000-Building file: ../src/display_Terminal.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_Terminal.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/display_Terminal.d" -MT"src/display_Terminal.o" -o "src/display_Terminal.o" "../src/display_Terminal.c"
+000-In file included from ../src/display_Terminal.c:4:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000-../src/display_Terminal.c: In function 'InterfaceRefresh_Main_Menu':
+000/timer/src/display_Terminal.c37-1-1variable 'periodsScaleFactor' set but not used [-Wunused-but-set-variable]1-../src/display_Terminal.c:37:30: warning: variable 'periodsScaleFactor' set but not used [-Wunused-but-set-variable]
+000-   37 |         unsigned int periods,periodsScaleFactor;
+000-      |                              ^~~~~~~~~~~~~~~~~~
+000/timer/src/display_Terminal.c36-1-1variable 'phaseScaleFactor' set but not used [-Wunused-but-set-variable]1-../src/display_Terminal.c:36:43: warning: variable 'phaseScaleFactor' set but not used [-Wunused-but-set-variable]
+000-   36 |         double freq,phase,freqScaleFactor,phaseScaleFactor;
+000-      |                                           ^~~~~~~~~~~~~~~~
+000/timer/src/display_Terminal.c36-1-1variable 'freqScaleFactor' set but not used [-Wunused-but-set-variable]1-../src/display_Terminal.c:36:27: warning: variable 'freqScaleFactor' set but not used [-Wunused-but-set-variable]
+000-   36 |         double freq,phase,freqScaleFactor,phaseScaleFactor;
+000-      |                           ^~~~~~~~~~~~~~~
+000-../src/display_Terminal.c: In function 'InterfaceRefresh_Dynamic_Config_Menu':
+000/timer/src/display_Terminal.c32-1-1control reaches end of non-void function [-Wreturn-type]1-../src/display_Terminal.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-   32 | }
+000-      | ^
+000-../src/display_Terminal.c: In function 'InterfaceRefresh_Main_Menu':
+000/timer/src/display_Terminal.c61-1-1control reaches end of non-void function [-Wreturn-type]1-../src/display_Terminal.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-   61 | }
+000-      | ^
+000-../src/display_Terminal.c: In function 'InterfaceRefresh_Default_Config_Menu':
+000/timer/src/display_Terminal.c65-1-1control reaches end of non-void function [-Wreturn-type]1-../src/display_Terminal.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-   65 | }
+000-      | ^
+000-../src/display_Terminal.c: In function 'InterfaceRefresh_Save_Menu':
+000/timer/src/display_Terminal.c68-1-1control reaches end of non-void function [-Wreturn-type]1-../src/display_Terminal.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-   68 | }
+000-      | ^
+000-Finished building: ../src/display_Terminal.c
+000- 
+000-Building file: ../src/dynamic_Config_Menu.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynamic_Config_Menu.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/dynamic_Config_Menu.d" -MT"src/dynamic_Config_Menu.o" -o "src/dynamic_Config_Menu.o" "../src/dynamic_Config_Menu.c"
+000-In file included from ../src/dynamic_Config_Menu.c:6:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000/timer/src/key_Logic.h42-1-1"DYNAMIC_CONFIG_MENU" redefined1-../src/key_Logic.h:42: warning: "DYNAMIC_CONFIG_MENU" redefined
+000-   42 | #define DYNAMIC_CONFIG_MENU '2'
+000-      | 
+000-In file included from ../src/dynamic_Config_Menu.c:2:
+000/timer/src/dynamic_Config_Menu.h15-1-1this is the location of the previous definition0-../src/dynamic_Config_Menu.h:15: note: this is the location of the previous definition
+000-   15 | #define DYNAMIC_CONFIG_MENU
+000-      | 
+000-Finished building: ../src/dynamic_Config_Menu.c
+000- 
+000-Building file: ../src/ematController_terminal.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ematController_terminal.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/ematController_terminal.d" -MT"src/ematController_terminal.o" -o "src/ematController_terminal.o" "../src/ematController_terminal.c"
+000-In file included from ../src/ematController_terminal.c:10:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000-../src/ematController_terminal.c: In function 'main':
+000/timer/src/ematController_terminal.c22-1-1implicit declaration of function 'Initial_Emat_Struct' [-Wimplicit-function-declaration]1-../src/ematController_terminal.c:22:9: warning: implicit declaration of function 'Initial_Emat_Struct' [-Wimplicit-function-declaration]
+000-   22 |         Initial_Emat_Struct(myEmat,configFile);
+000-      |         ^~~~~~~~~~~~~~~~~~~
+000-Finished building: ../src/ematController_terminal.c
+000- 
+000-Building file: ../src/emat_Initial.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/emat_Initial.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/emat_Initial.d" -MT"src/emat_Initial.o" -o "src/emat_Initial.o" "../src/emat_Initial.c"
+000-In file included from ../src/emat_Initial.c:3:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000-Finished building: ../src/emat_Initial.c
+000- 
+000-Building file: ../src/key_Logic.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/key_Logic.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/key_Logic.d" -MT"src/key_Logic.o" -o "src/key_Logic.o" "../src/key_Logic.c"
+000-In file included from ../src/key_Logic.c:2:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000-../src/key_Logic.c: In function 'Dynamic_Config_Menu':
+000/timer/src/key_Logic.c38-1-1implicit declaration of function 'InterfaceRefresh_Dynamic_Config_Menu' [-Wimplicit-function-declaration]1-../src/key_Logic.c:38:17: warning: implicit declaration of function 'InterfaceRefresh_Dynamic_Config_Menu' [-Wimplicit-function-declaration]
+000-   38 |                 InterfaceRefresh_Dynamic_Config_Menu(myEmat);
+000-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000/timer/src/key_Logic.c41-1-1implicit declaration of function 'Dynamic_Config_FixRange'; did you mean 'Dynamic_Config_Menu'? [-Wimplicit-function-declaration]1-../src/key_Logic.c:41:25: warning: implicit declaration of function 'Dynamic_Config_FixRange'; did you mean 'Dynamic_Config_Menu'? [-Wimplicit-function-declaration]
+000-   41 |                         Dynamic_Config_FixRange(ctrl,myEmat);
+000-      |                         ^~~~~~~~~~~~~~~~~~~~~~~
+000-      |                         Dynamic_Config_Menu
+000-../src/key_Logic.c: In function 'Default_Config_Menu':
+000/timer/src/key_Logic.c74-1-1implicit declaration of function 'InterfaceRefresh_Default_Config_Menu' [-Wimplicit-function-declaration]1-../src/key_Logic.c:74:17: warning: implicit declaration of function 'InterfaceRefresh_Default_Config_Menu' [-Wimplicit-function-declaration]
+000-   74 |                 InterfaceRefresh_Default_Config_Menu(myEmat);
+000-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000/timer/src/key_Logic.c76-1-1implicit declaration of function 'Default_Config_Logic'; did you mean 'Default_Config_Menu'? [-Wimplicit-function-declaration]1-../src/key_Logic.c:76:25: warning: implicit declaration of function 'Default_Config_Logic'; did you mean 'Default_Config_Menu'? [-Wimplicit-function-declaration]
+000-   76 |                         Default_Config_Logic(ctrl,myEmat);
+000-      |                         ^~~~~~~~~~~~~~~~~~~~
+000-      |                         Default_Config_Menu
+000-../src/key_Logic.c: In function 'Save_Menu':
+000/timer/src/key_Logic.c98-1-1implicit declaration of function 'InterfaceRefresh_Save_Menu' [-Wimplicit-function-declaration]1-../src/key_Logic.c:98:17: warning: implicit declaration of function 'InterfaceRefresh_Save_Menu' [-Wimplicit-function-declaration]
+000-   98 |                 InterfaceRefresh_Save_Menu(myEmat);
+000-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+000/timer/src/key_Logic.c100-1-1implicit declaration of function 'Save_Logic' [-Wimplicit-function-declaration]1-../src/key_Logic.c:100:25: warning: implicit declaration of function 'Save_Logic' [-Wimplicit-function-declaration]
+000-  100 |                         Save_Logic(ctrl,myEmat);
+000-      |                         ^~~~~~~~~~
+000-../src/key_Logic.c: In function 'Main_Menu':
+000/timer/src/key_Logic.c118-1-1implicit declaration of function 'InterfaceRefresh_Main_Menu' [-Wimplicit-function-declaration]1-../src/key_Logic.c:118:17: warning: implicit declaration of function 'InterfaceRefresh_Main_Menu' [-Wimplicit-function-declaration]
+000-  118 |                 InterfaceRefresh_Main_Menu(myEmat);
+000-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+000-Finished building: ../src/key_Logic.c
+000- 
+000-Building file: ../src/main_Menu.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_Menu.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/main_Menu.d" -MT"src/main_Menu.o" -o "src/main_Menu.o" "../src/main_Menu.c"
+000-In file included from ../src/main_Menu.c:4:
+000/timer/src/key_Logic.h20-1-1"SAVE" redefined1-../src/key_Logic.h:20: warning: "SAVE" redefined
+000-   20 | #define SAVE    'y'
+000-      | 
+000/timer/src/key_Logic.h16-1-1this is the location of the previous definition0-../src/key_Logic.h:16: note: this is the location of the previous definition
+000-   16 | #define SAVE    's'
+000-      | 
+000/timer/src/key_Logic.h41-1-1"MAIN_MENU" redefined1-../src/key_Logic.h:41: warning: "MAIN_MENU" redefined
+000-   41 | #define MAIN_MENU                       '1'
+000-      | 
+000-In file included from ../src/main_Menu.c:2:
+000/timer/src/main_Menu.h5-1-1this is the location of the previous definition0-../src/main_Menu.h:5: note: this is the location of the previous definition
+000-    5 | #define MAIN_MENU
+000-      | 
+000-../src/main_Menu.c: In function 'Main_Logic':
+000/timer/src/main_Menu.c8-1-1control reaches end of non-void function [-Wreturn-type]1-../src/main_Menu.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-    8 | }
+000-      | ^
+000-Finished building: ../src/main_Menu.c
+000- 
+000-Building file: ../src/mem_Access.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mem_Access.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/mem_Access.d" -MT"src/mem_Access.o" -o "src/mem_Access.o" "../src/mem_Access.c"
+000-Finished building: ../src/mem_Access.c
+000- 
+000-Building file: ../src/register_Config.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/register_Config.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/register_Config.d" -MT"src/register_Config.o" -o "src/register_Config.o" "../src/register_Config.c"
+000-../src/register_Config.c: In function 'timingLogic_Register_Write':
+000/timer/src/register_Config.c58-1-1no return statement in function returning non-void [-Wreturn-type]1-../src/register_Config.c:58:1: warning: no return statement in function returning non-void [-Wreturn-type]
+000-   58 | }
+000-      | ^
+000-Finished building: ../src/register_Config.c
+000- 
+000-Building file: ../src/save_Menu.c
+000-Invoking: ARM v7 Linux gcc compiler
+000-arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/save_Menu.o" --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -I/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/include -MMD -MP -MF"src/save_Menu.d" -MT"src/save_Menu.o" -o "src/save_Menu.o" "../src/save_Menu.c"
+000-../src/save_Menu.c: In function 'Save_Logic':
+000/timer/src/save_Menu.c6-1-1control reaches end of non-void function [-Wreturn-type]1-../src/save_Menu.c:6:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-    6 | }
+000-      | ^
+000-Finished building: ../src/save_Menu.c
+000- 
+000-Building target: timer.elf
+000-Invoking: ARM v7 Linux gcc linker
+000-arm-linux-gnueabihf-gcc -L/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/lib -L/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/lib -o "timer.elf" ./src/default_Config_Menu.o ./src/display_Terminal.o ./src/dynamic_Config_Menu.o ./src/ematController_terminal.o ./src/emat_Initial.o ./src/key_Logic.o ./src/main_Menu.o ./src/mem_Access.o ./src/register_Config.o ./src/save_Menu.o   --sysroot=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi -Wl,-rpath-link=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/lib -Wl,-rpath-link=/home/puhang/Documents/workspace/vitis/ematController_linux/export/ematController_linux/sw/ematController_linux/linux_domain/sysroot/cortexa9t2hf-neon-xilinx-linux-gnueabi/usr/lib
+000-Finished building target: timer.elf
+000- 
+000-Invoking: ARM v7 Linux Print Size
+000-arm-linux-gnueabihf-size timer.elf  |tee "timer.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  10501	    364	      4	  10869	   2a75	timer.elf
+000-Finished building: timer.elf.size
+000- 
+00255-
+14:13:38 Build Finished (took 818ms)
+

@@ -1,0 +1,17 @@
+#ifndef DYNAMIC_CONFIG_MENU
+
+int Dynamic_Config_FixRange(char type,ematController *myEmat);
+
+
+#define OVERFLOW_FREQ_MAX 	 0x00000001
+#define OVERFLOW_FREQ_MIN    0x00000002
+#define OVERFLOW_PHASE_MAX   0x00000003
+#define OVERFLOW_PHASE_MIN   0x00000004
+#define OVERFLOW_PERIODS_MAX 0x00000005
+#define OVERFLOW_PERIODS_MIN 0x00000006
+
+#define OVERFLOW_MASK  		 0x00000007
+
+#define DYNAMIC_CONFIG_MENU
+#endif
+

@@ -1,0 +1,4 @@
+dutyCycle	dutyCyclePrecision	baseFreq	freqPrecision	phasePrecision	periodsPrecision	clkMasterDiv	clkSlaveDiv	transStartInterval	transStopInterval	receiveInterval
+1			10000				100			1000			1000			1					10				10			1					0					10				
+freq	phase	periods	freqScaleFactor	phaseScaleFactor	periodsScaleFactor	maxFreq	minFreq	maxPhase	minPhase	maxPeriods	minPeriods
+8000	40000	3		10				500					1					9999	1000	90000		0			10			1	

@@ -1,0 +1,14 @@
+#ifndef AXI_TIMERLOGIC_REGISTERS
+// TIMER LOGIC register based address
+#define TIMER_BASE_ADDR 0x43c10000
+//
+#define TRAN_CTRL 0x00 //4bytes 32btis
+#define IDLE_CTRL 0x04 //4bytes 32bitss
+
+#define TRANS_START_INTERVAL_MASK	15		   //0x0000000f
+#define TRANS_STOP_INTERVAL_MASK	3840	   //0x00000f00
+#define TRANS_INTERVAL_MASK			240		   //0x000000f0
+#define RECEIVE_INTERVAL_MASK		4294963200 //0xfffff000
+
+#define AXI_TIMERLOGIC_REGISTERS
+#endif
